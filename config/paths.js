@@ -1,8 +1,10 @@
 const path = require('path');
 
-const rootPath = path.resolve(__dirname, '..')
+const rootPath = path.resolve(__dirname, '..');
+const srcPath = path.join(rootPath, 'src');
 
 module.exports = {
     root: rootPath,
-    entryPoint: path.join(rootPath, 'index.js'),
+    src: srcPath,
+    entryPoint: path.join(srcPath, 'index.js'),
 }

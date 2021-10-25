@@ -1,1 +1,0 @@
-export { evilProgrammerBeLike, holap } from './src/file';
